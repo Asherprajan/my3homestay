@@ -2,9 +2,9 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
-  generator: 'v0.dev',
+  title: 'My3 Heritage Homestay | Traditional Kerala Nalukettu Experience',
+  description: 'Experience authentic Kerala living in our 400-year-old traditional Nalukettu homestay. Immerse yourself in Kerala\'s rich architectural heritage and cultural traditions.',
+  generator: 'Next.js',
 }
 
 export default function RootLayout({
