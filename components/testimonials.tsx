@@ -12,19 +12,19 @@ export default function Testimonials() {
     {
       name: "Sarah Johnson",
       location: "United Kingdom",
-      text: "Our stay at My3 Heritage Homestay was absolutely magical. The 400-year-old traditional wooden villa has been beautifully preserved while offering all modern comforts. The staff was attentive and the views of the backwaters were breathtaking. A truly authentic Kerala experience!",
+      text: "Our stay at My3 Homestay was absolutely magical. The traditional wooden house with its thatched roof was charming and comfortable. The family's hospitality was wonderful and the authentic Kerala dishes served on banana leaves were delicious. The peaceful surroundings and river views made our stay truly memorable!",
       rating: 5
     },
     {
       name: "Michael Chen",
       location: "Singapore",
-      text: "This place is a hidden gem! The architecture is stunning and the location is perfect for a peaceful retreat. We loved the private pool and the traditional Kerala cuisine prepared by the in-house chef. Will definitely return!",
+      text: "This place is a hidden gem! The location is perfect for exploring central Kerala. We loved the homemade Kerala cuisine and the Shikara boat ride arranged by our hosts. The proximity to many temples and cultural sites made it easy to experience the local culture. Will definitely return!",
       rating: 5
     },
     {
       name: "Priya Sharma",
       location: "India",
-      text: "As someone who appreciates heritage properties, My3 exceeded all my expectations. The attention to detail in preserving the original architecture while providing luxury amenities is commendable. The lakeside views at sunset are unforgettable.",
+      text: "As someone who appreciates traditional homes, My3 exceeded all my expectations. The 75-year-old Kerala house has been lovingly maintained while providing modern comforts. The yoga session arranged by our hosts was rejuvenating, and the riverfront views are simply beautiful.",
       rating: 5
     },
   ]
