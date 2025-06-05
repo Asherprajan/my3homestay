@@ -10,23 +10,17 @@ export default function Testimonials() {
 
   const testimonials = [
     {
-      name: "Sarah Johnson",
-      location: "United Kingdom",
-      text: "Our stay at My3 Homestay was absolutely magical. The traditional wooden house with its thatched roof was charming and comfortable. The family's hospitality was wonderful and the authentic Kerala dishes served on banana leaves were delicious. The peaceful surroundings and river views made our stay truly memorable!",
-      rating: 5
-    },
-    {
-      name: "Michael Chen",
-      location: "Singapore",
-      text: "This place is a hidden gem! The location is perfect for exploring central Kerala. We loved the homemade Kerala cuisine and the Shikara boat ride arranged by our hosts. The proximity to many temples and cultural sites made it easy to experience the local culture. Will definitely return!",
-      rating: 5
-    },
-    {
-      name: "Priya Sharma",
+      name: "Elizabeth Pulimood",
       location: "India",
-      text: "As someone who appreciates traditional homes, My3 exceeded all my expectations. The 75-year-old Kerala house has been lovingly maintained while providing modern comforts. The yoga session arranged by our hosts was rejuvenating, and the riverfront views are simply beautiful.",
+      text: "My stay at My3 Homestay was absolutely magical. The cosiness of the home and warmth of service were top-notch. I also arranged a small alumni reunion lunch at My3 during my visit. The food and service provided by our hosts was wonderful. The peaceful surroundings and river views made the experience truly memorable!",
       rating: 5
     },
+    {
+      name: "Smita & Ameya Damle",
+      location: "India",
+      text: "The traditional look of My3 immediately charmed us. Its tiled roof, brick exteriors, and surrounding lush greenery were a welcome change from our busy city environment. The food, visits to nearby tourist spots, boating, ayurvedic treatments... All this made My3 the best part of our Kerala holiday!",
+      rating: 5
+    }
   ]
 
   useEffect(() => {
