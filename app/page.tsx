@@ -263,7 +263,7 @@ Experinece  the charm of a traditional Kerala home nestled in the tanquil villag
               <div className="md:w-1/2">
                 <div className="flex items-center mb-6">
                   <div className="h-0.5 w-12 bg-kerala-wood"></div>
-                  <span className="mx-4 text-kerala-spice text-sm uppercase tracking-widest font-medium">Our Heritage</span>
+                  <span className="mx-4 text-kerala-spice text-sm uppercase tracking-widest font-medium">An Authentic Malayali Experience</span>
                 </div>
                 <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-6 text-kerala-wood font-serif">
                   Welcome to My3 Homestay
@@ -272,7 +272,7 @@ Experinece  the charm of a traditional Kerala home nestled in the tanquil villag
                   Experience the charm of a traditional Kerala home, over 75 years old, nestled in the tranquil village of Mevelloor, in scenic Velloor. Discover the warmth of Kerala hospitality in a heritage residence.
                 </p>
                 <p className="text-lg leading-relaxed text-kerala-coconut mb-8">
-                  During your stay, you can savour authentic Malayali dishes, served on banana leaves, prepared using traditional recipes and fresh, seasonal produce. All this, surrounded by lush greenery, serene riverfront views, and the gentle sounds of nature.
+                  During your stay, you can savour authentic Malayali dishes prepared using traditional recipes and fresh, seasonal produce. All this, surrounded by lush greenery, serene riverfront views, and the gentle sounds of nature.
                 </p>
                 <div className="grid grid-cols-2 gap-6">
                   <div className="flex items-start">
@@ -289,8 +289,8 @@ Experinece  the charm of a traditional Kerala home nestled in the tanquil villag
                       <Check className="h-4 w-4 text-kerala-wood" />
                     </div>
                     <div>
-                      <h3 className="font-medium text-kerala-wood">Traditional Architecture</h3>
-                      <p className="text-sm text-kerala-coconut mt-1">Built and restored using traditional Kerala architecture</p>
+                      <h3 className="font-medium text-kerala-wood">Family Legacy</h3>
+                      <p className="text-sm text-kerala-coconut mt-1">A carefully restored and lovingly maintained home</p>
                     </div>
                   </div>
                 </div>
@@ -299,7 +299,74 @@ Experinece  the charm of a traditional Kerala home nestled in the tanquil villag
 
         <br />
         <br />
-          
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+    
+        <br />
+          {/* Features Section */}
+        <section id="features" className="relative py-8 overflow-hidden">
+          <div className="container relative z-10 px-4 mx-auto">
+            <div className="text-center mb-6">
+              <div className="inline-flex items-center px-3 py-1 rounded-full bg-kerala-kasavu/10 backdrop-blur-sm border border-kerala-kasavu/20">
+                <span className="text-kerala-spice text-xs font-medium tracking-wider uppercase">Our Heritage Features</span>
+              </div>
+              <h2 className="mt-3 text-2xl font-serif font-bold text-kerala-wood">
+                Experience Timeless Kerala Traditions
+              </h2>
+              <p className="mt-2 text-sm text-kerala-coconut max-w-xl mx-auto">
+              Where centuries-old customs meet modern comfort              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {[
+                {
+                  title: "Malayali Architecture",
+                  description: "Experience authentic Kerala quadrangular architecture with our traditional central courtyard design",
+                  image: "/malayali_archit.jpg"
+                },
+                {
+                  title: "Ayurvedic Wellness",
+                  description: "Rejuvenate with traditional Kerala Ayurvedic treatments in our heritage therapy rooms",
+                  image: "/ayurveda_medicines.jpg"
+                },
+                {
+                  title: "Kerala Cuisine",
+                  description: "Authentic Malayali dishes prepared using traditional recipes and fresh, seasonal produce",
+                  image: "/kerala-cuisine.webp"
+                },
+                {
+                  title: "Scenic Riverview",
+                  description: "Immerse yourself in breathtaking views of Kerala's serene backwaters from our heritage property",
+                  image: "/river_view.jpg"
+                }
+              ].map((feature, i) => (
+                <div key={i} className="group relative">
+                  <div className="relative rounded-lg border border-kerala-wood/10 hover:border-kerala-wood/30 transition-all duration-300 overflow-hidden">
+                    <div className="aspect-w-16 aspect-h-9 h-48">
+                      <img 
+                        src={feature.image} 
+                        alt={feature.title}
+                        className="object-cover w-full h-full"
+                      />
+                    </div>
+                    <div className="p-3">
+                      <h3 className="text-lg font-medium mb-1 text-kerala-wood group-hover:text-kerala-spice transition-colors duration-300">
+                        {feature.title}
+                      </h3>
+                      <p className="text-sm text-kerala-coconut group-hover:text-kerala-coconut/90 transition-colors duration-300">
+                        {feature.description}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
         <section id="rooms" className="py-20 md:py-28 bg-kerala-dhoti relative">
           <div className="absolute inset-0 opacity-5 bg-leaf-pattern"></div>
           <div className="container px-4 md:px-6 relative z-10">
@@ -479,71 +546,7 @@ Experinece  the charm of a traditional Kerala home nestled in the tanquil villag
           </div>
         </section>
 
-        {/* Features Section */}
-        <section id="features" className="relative py-8 overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-br from-kerala-wood to-kerala-laterite opacity-95"></div>
-          <div className="absolute inset-0 bg-[url('/textures/wood-pattern.png')] opacity-10 mix-blend-overlay"></div>
-          
-          <div className="container relative z-10 px-4 mx-auto">
-            <div className="text-center mb-6">
-              <div className="inline-flex items-center px-3 py-1 rounded-full bg-kerala-kasavu/10 backdrop-blur-sm border border-kerala-kasavu/20">
-                <span className="text-kerala-kasavu text-xs font-medium tracking-wider uppercase">Our Heritage Features</span>
-              </div>
-              <h2 className="mt-3 text-2xl font-serif font-bold text-kerala-dhoti">
-                Experience Timeless Kerala Traditions
-              </h2>
-              <p className="mt-2 text-sm text-kerala-dhoti/80 max-w-xl mx-auto">
-                Step into a world where centuries-old customs meet modern comfort
-              </p>
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {[
-                {
-                  title: "Malayali Architecture",
-                  description: "Experience authentic Kerala quadrangular architecture with our traditional central courtyard design",
-                  image: "/malayali_archit.jpg"
-                },
-                {
-                  title: "Ayurvedic Wellness",
-                  description: "Rejuvenate with traditional Kerala Ayurvedic treatments in our heritage therapy rooms",
-                  image: "/ayurveda_medicines.jpg"
-                },
-                {
-                  title: "Kerala Cuisine",
-                  description: "Savor authentic dishes served on banana leaves, prepared using ancestral recipes",
-                  image: "/images/cuisine.jpg"
-                },
-                {
-                  title: "Scenic Riverview",
-                  description: "Enjoy panoramic views of Kerala's famous backwaters from our historic property",
-                  image: "/river_view.jpg"
-                }
-              ].map((feature, i) => (
-                <div key={i} className="group relative">
-                  <div className="absolute inset-0 rounded-lg bg-gradient-to-b from-kerala-kasavu/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                  <div className="relative rounded-lg bg-kerala-wood/40 backdrop-blur-sm border border-kerala-kasavu/10 hover:border-kerala-kasavu/30 transition-all duration-300 overflow-hidden">
-                    <div className="aspect-w-16 aspect-h-9 h-48">
-                      <img 
-                        src={feature.image} 
-                        alt={feature.title}
-                        className="object-cover w-full h-full"
-                      />
-                    </div>
-                    <div className="p-3">
-                      <h3 className="text-lg font-medium mb-1 text-kerala-kasavu group-hover:text-kerala-dhoti transition-colors duration-300">
-                        {feature.title}
-                      </h3>
-                      <p className="text-sm text-kerala-dhoti/70 group-hover:text-kerala-dhoti/90 transition-colors duration-300">
-                        {feature.description}
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
+        
 
         {/* Amenities Section */}
         {/* <section id="amenities" className="py-20 md:py-28 bg-kerala-ivory">
@@ -664,15 +667,13 @@ Experinece  the charm of a traditional Kerala home nestled in the tanquil villag
             <div className="text-center mb-16">
               <div className="flex items-center justify-center mb-6">
                 <div className="h-0.5 w-12 bg-kerala-wood"></div>
-                <span className="mx-4 text-kerala-spice text-sm uppercase tracking-widest font-medium">Visual Journey</span>
+                <span className="mx-4 text-kerala-spice text-sm uppercase tracking-widest font-medium">Gallery</span>
                 <div className="h-0.5 w-12 bg-kerala-wood"></div>
             </div>
               <h2 className="text-3xl font-bold tracking-tight sm:text-4xl text-kerala-wood font-serif">
-                Kerala Heritage Gallery
+              Explore Our Property
               </h2>
-              <p className="mt-4 text-lg text-kerala-coconut max-w-2xl mx-auto">
-                Explore our ancient Kerala heritage property through these visual glimpses
-              </p>
+          
             </div>
             
             {/* Custom gallery with Kerala-themed layout */}
@@ -791,6 +792,7 @@ Experinece  the charm of a traditional Kerala home nestled in the tanquil villag
             </div>
           </div>
         </section>
+        
 
         {/* Why Choose Us Section */}
         <section className="bg-kerala-wood py-16 md:py-24 text-kerala-dhoti">
@@ -855,7 +857,18 @@ Experinece  the charm of a traditional Kerala home nestled in the tanquil villag
             </div>
           </div>
         </section>
-        <section className="py-20 bg-gradient-to-b from-kerala-wood/5 to-white">
+         {/* Testimonials Section */}
+         <section className="py-16 md:py-24">
+          <div className="container px-4 md:px-6">
+            <div className="mx-auto max-w-3xl text-center">
+              <h2 className="text-3xl font-bold tracking-tight sm:text-4xl text-brown-800">Guest Reviews</h2>
+              <p className="mt-4 text-lg text-gray-600">What visitors say about their authentic Kerala experience</p>
+            </div>
+            <Testimonials />
+          </div>
+        </section>
+        
+                <section className="py-20 bg-gradient-to-b from-kerala-wood/5 to-white">
           <div className="container px-4 mx-auto">
             <div className="text-center mb-16">
               <div className="inline-flex items-center px-4 py-2 rounded-full bg-kerala-wood/10 mb-4">
@@ -943,16 +956,7 @@ Experinece  the charm of a traditional Kerala home nestled in the tanquil villag
           </div>
         </section>
 
-        {/* Testimonials Section */}
-        <section className="py-16 md:py-24">
-          <div className="container px-4 md:px-6">
-            <div className="mx-auto max-w-3xl text-center">
-              <h2 className="text-3xl font-bold tracking-tight sm:text-4xl text-brown-800">Guest Reviews</h2>
-              <p className="mt-4 text-lg text-gray-600">What visitors say about their authentic Kerala experience</p>
-            </div>
-            <Testimonials />
-          </div>
-        </section>
+       
 
         {/* Location Section */}
         <section id="location" className="relative py-16 md:py-24">
@@ -1123,7 +1127,7 @@ Experinece  the charm of a traditional Kerala home nestled in the tanquil villag
                 </div>
                 
                 <div className="mt-8 pt-8 border-t border-kerala-kasavu/10">
-                  <h4 className="text-lg font-medium text-kerala-kasavu mb-4">Follow Our Heritage Journey</h4>
+                  <h4 className="text-lg font-medium text-kerala-kasavu mb-4">Follow My3 Homestay</h4>
                   <div className="flex space-x-4">
                     <a href="#" className="rounded-full bg-kerala-dhoti/10 p-3 hover:bg-kerala-dhoti/20 transition-colors">
                       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-5 w-5 text-kerala-kasavu">
@@ -1233,11 +1237,10 @@ Experinece  the charm of a traditional Kerala home nestled in the tanquil villag
                 <div className="h-10 w-10 rounded-full bg-kerala-wood flex items-center justify-center">
                   <Leaf className="h-5 w-5 text-kerala-dhoti" />
                 </div>
-                <span className="text-xl font-semibold text-kerala-wood">My3 Heritage Homestay</span>
+                <span className="text-xl font-semibold text-kerala-wood">My3 Homestay</span>
               </div>
               <p className="text-kerala-coconut mb-6 max-w-md">
-                A 400-year-old traditional Kerala Nalukettu home nestled in the serene backwaters of Kochi, offering an authentic heritage
-                experience that has been preserved through seven generations of our family.
+                My3 Residence is a carefully restored and lovingly maintained 2-bedroomed, traditional home, built in classic Kerala architectural style but featuring all the convenience of 21st century living. The house features a tiled roof, joisted wooden ceilings and comfortable terracotta floors.
               </p>
               <div className="flex space-x-4">
                 <a href="#" className="text-kerala-wood hover:text-kerala-spice transition-colors">
@@ -1257,26 +1260,26 @@ Experinece  the charm of a traditional Kerala home nestled in the tanquil villag
                     <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path>
                   </svg>
                 </a>
-            </div>
+              </div>
             </div>
             
             <div>
-              <h3 className="text-lg font-medium text-kerala-wood mb-6">Heritage Experiences</h3>
+              <h3 className="text-lg font-medium text-kerala-wood mb-6">Experiences</h3>
               <ul className="space-y-4">
                 <li>
-                  <a href="#nalukettu" className="text-kerala-coconut hover:text-kerala-spice transition-colors">Nalukettu Architecture</a>
+                  <a href="#shikara" className="text-kerala-coconut hover:text-kerala-spice transition-colors">Shikara Boat Service</a>
                 </li>
                 <li>
-                  <a href="#cuisine" className="text-kerala-coconut hover:text-kerala-spice transition-colors">Traditional Kerala Cuisine</a>
+                  <a href="#angling" className="text-kerala-coconut hover:text-kerala-spice transition-colors">Angling in the River</a>
                 </li>
                 <li>
-                  <a href="#cultural" className="text-kerala-coconut hover:text-kerala-spice transition-colors">Cultural Performances</a>
+                  <a href="#yoga" className="text-kerala-coconut hover:text-kerala-spice transition-colors">Yoga Classes</a>
                 </li>
                 <li>
-                  <a href="#ayurveda" className="text-kerala-coconut hover:text-kerala-spice transition-colors">Ayurvedic Treatments</a>
+                  <a href="#attractions" className="text-kerala-coconut hover:text-kerala-spice transition-colors">Nearby Attractions</a>
                 </li>
                 <li>
-                  <a href="#backwaters" className="text-kerala-coconut hover:text-kerala-spice transition-colors">Backwater Cruises</a>
+                  <a href="#cultural" className="text-kerala-coconut hover:text-kerala-spice transition-colors">Cultural Sites</a>
                 </li>
               </ul>
             </div>
@@ -1285,10 +1288,10 @@ Experinece  the charm of a traditional Kerala home nestled in the tanquil villag
               <h3 className="text-lg font-medium text-kerala-wood mb-6">Quick Links</h3>
               <ul className="space-y-4">
                 <li>
-                  <a href="#about" className="text-kerala-coconut hover:text-kerala-spice transition-colors">About Our Heritage</a>
+                  <a href="#about" className="text-kerala-coconut hover:text-kerala-spice transition-colors">About My3</a>
                 </li>
                 <li>
-                  <a href="#rooms" className="text-kerala-coconut hover:text-kerala-spice transition-colors">Traditional Rooms</a>
+                  <a href="#rooms" className="text-kerala-coconut hover:text-kerala-spice transition-colors">Accommodations</a>
                 </li>
                 <li>
                   <a href="#gallery" className="text-kerala-coconut hover:text-kerala-spice transition-colors">Gallery</a>
@@ -1301,10 +1304,10 @@ Experinece  the charm of a traditional Kerala home nestled in the tanquil villag
                 </li>
               </ul>
             </div>
-                </div>
+          </div>
           
           <div className="mt-12 pt-8 border-t border-kerala-wood/10 flex flex-col md:flex-row justify-between items-center">
-            <p className="text-kerala-coconut text-sm">© {new Date().getFullYear()} My3 Heritage Homestay. All rights reserved.</p>
+            <p className="text-kerala-coconut text-sm">© {new Date().getFullYear()} My3 Homestay. All rights reserved.</p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="text-kerala-coconut hover:text-kerala-spice transition-colors text-sm">Privacy Policy</a>
               <a href="#" className="text-kerala-coconut hover:text-kerala-spice transition-colors text-sm">Terms of Service</a>
