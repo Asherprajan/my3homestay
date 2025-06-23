@@ -12,7 +12,7 @@ export default function Testimonials() {
     {
       name: "Elizabeth Pulimood",
       location: "India",
-      text: "My stay at My3 Homestay was absolutely magical. The cosiness of the home and warmth of service were top-notch. I also arranged a small alumni reunion lunch at My3 during my visit. The food and service provided by our hosts was wonderful. The peaceful surroundings and river views made the experience truly memorable!",
+      text: "My stay at My3 Villa was absolutely magical. The cosiness of the home and warmth of service were top-notch. I also arranged a small alumni reunion lunch at My3 during my visit. The food and service provided by our hosts was wonderful. The peaceful surroundings and river views made the experience truly memorable!",
       rating: 5
     },
     {
