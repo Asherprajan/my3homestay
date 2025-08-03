@@ -485,10 +485,7 @@ export default function Home() {
                     </span>
                     <div className="h-0.5 w-12 bg-kerala-wood"></div>
                   </div>
-                  <h2 className="text-3xl font-bold tracking-tight sm:text-4xl text-kerala-wood font-serif">
-                    Charming Heritage Features Meet Modern Comfort
-                  </h2>
-                  <p className="mt-4 text-lg text-kerala-coconut max-w-2xl mx-auto">
+                  <p className="text-lg font-bold tracking-tight sm:text-4xl text-kerala-wood font-serif">
                     We preserve the authentic Kerala experience while ensuring
                     your stay is comfortable.
                   </p>
@@ -1065,7 +1062,7 @@ export default function Home() {
               <div className="group bg-white rounded-2xl shadow-lg border border-kerala-wood/10 hover:border-kerala-wood/30 transition-all duration-300 overflow-hidden">
                 <div className="relative h-48">
                   <Image
-                    src="/fishing avif.avif"
+                    src="/choonda.jpeg"
                     alt="Fishing on Kerala river"
                     fill
                     className="object-cover"
@@ -1105,7 +1102,7 @@ export default function Home() {
               <div className="group bg-white rounded-2xl shadow-lg border border-kerala-wood/10 hover:border-kerala-wood/30 transition-all duration-300 overflow-hidden">
                 <div className="relative h-48">
                   <Image
-                    src="/yoga.png"
+                    src="/yoga.jpeg"
                     alt="Yoga session in Kerala"
                     fill
                     className="object-cover"
@@ -1168,9 +1165,7 @@ export default function Home() {
               <h2 className="mt-3 text-3xl font-serif font-bold text-kerala-dhoti">
                 Plan Your Heritage Experience
               </h2>
-              <p className="mt-2 text-sm text-kerala-dhoti/80 max-w-xl mx-auto">
-                Nestled in the serene backwaters of Kochi, Kerala.
-              </p>
+             
             </div>
 
             <div className="mt-12 grid grid-cols-1 gap-8 lg:grid-cols-2 items-center">
